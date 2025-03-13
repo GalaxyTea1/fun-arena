@@ -1,7 +1,5 @@
 # FUN Arena Cheb - Website
 
-Đây là mã nguồn cho trang web của FUN Arena Cheb, một trung tâm giải trí với nhiều hoạt động khác nhau như đua xe go-kart, nhảy trampolines, thực tế ảo, và nhiều hơn nữa.
-
 ## Công nghệ sử dụng
 
 - React
@@ -47,25 +45,3 @@ npm run build
 - Banner slider với chức năng tự động chuyển đổi và điều khiển bằng nút
 - Responsive design cho tất cả các thiết bị
 - Hiệu ứng chuyển đổi mượt mà
-- Perfect pixel theo thiết kế
-
-## Lưu ý
-
-Để trang web hoạt động đúng, bạn cần thêm các hình ảnh vào thư mục `src/assets/images/`. Các hình ảnh cần thiết bao gồm:
-
-- go-karts.jpg
-- jumparena.jpg
-- vr.jpg
-- multiball.jpg
-- laser.jpg
-- go-karts-thumb.jpg
-- jumparena-thumb.jpg
-- vr-thumb.jpg
-- multiball-thumb.jpg
-- laser-thumb.jpg
-- events-thumb.jpg
-- entertainment-center.jpg
-- gift-icon.png
-- flag-icon.png
-- logo.png
-- qr-code.png
