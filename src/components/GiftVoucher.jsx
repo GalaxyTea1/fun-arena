@@ -24,7 +24,7 @@ const GiftVoucher = () => {
             </div>
           </div>
           <div className="mt-6 lg:mt-0">
-            <button className="lg:absolute right-14 bottom-12 max-xl:right-1 max-xl:bottom-12 bg-white text-black font-bold hover:bg-gray-100 transition-colors duration-300 px-4 sm:px-6 py-2.5 rounded-lg text-sm sm:text-base">
+            <button className="lg:absolute right-14 bottom-12 max-xl:right-1 max-xl:bottom-12 bg-white text-black font-bold transition-colors duration-300 px-4 sm:px-6 py-2.5 rounded-lg text-sm sm:text-base hover:bg-gray-200">
               Buy now
             </button>
           </div>

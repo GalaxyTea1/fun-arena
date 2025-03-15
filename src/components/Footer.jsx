@@ -34,22 +34,22 @@ const Footer = () => {
             <img
               src="/src/assets/images/fb.png"
               alt="Facebook"
-              className="h-5 lg:h-6 w-auto cursor-pointer"
+              className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
               src="/src/assets/images/ins.png"
               alt="Instagram"
-              className="h-5 lg:h-6 w-auto cursor-pointer"
+              className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
               src="/src/assets/images/mail.png"
               alt="Email"
-              className="h-5 lg:h-6 w-auto cursor-pointer"
+              className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
               src="/src/assets/images/phone.png"
               alt="Phone"
-              className="h-5 lg:h-6 w-auto cursor-pointer"
+              className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
           </div>
           <div className="flex justify-center items-center">
@@ -60,7 +60,7 @@ const Footer = () => {
               <img
                 src="/src/assets/images/up-btn.png"
                 alt="Up"
-                className="h-6 lg:h-8"
+                className="h-6 lg:h-8 hover:scale-110 transition-all duration-300 cursor-pointer"
               />
             </button>
           </div>

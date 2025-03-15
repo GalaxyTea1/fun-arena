@@ -52,7 +52,7 @@ const Attractions = () => {
             <img
               src="/src/assets/images/arrow-col.png"
               alt="arrow-right"
-              className="ml-4"
+              className="ml-4 hover:scale-110 transition-all duration-300 cursor-pointer"
             />
           </div>
         </div>

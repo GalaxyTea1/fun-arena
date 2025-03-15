@@ -17,12 +17,12 @@ const EntertainmentCenter = () => {
                 <br className="hidden md:block" /> in western Bohemia for more
                 than 10 years!
               </p>
-              <span className="text-white font-bold flex items-center gap-2 mt-2 md:mt-0 cursor-pointer">
+              <span className="text-white font-bold flex items-center gap-2 mt-2 md:mt-0 cursor-pointer hover:text-gray-300">
                 Find more about us{" "}
                 <img
                   src="/src/assets/images/arrow.png"
                   alt="arrow"
-                  className="w-5 h-5"
+                  className="w-5 h-5 hover:w-6 hover:h-6 transition-all duration-300"
                 />
               </span>
             </div>

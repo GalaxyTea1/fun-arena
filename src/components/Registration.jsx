@@ -59,7 +59,7 @@ const Registration = () => {
                     <h3 className="text-xl font-semibold skew-x-[20deg]">
                       Register
                     </h3>
-                    <button className="bg-red-600 w-24 max-sm:mr-0 text-white px-1 py-1 rounded-xl text-xs font-bold skew-x-[20deg] mr-32">
+                    <button className="bg-red-600 w-24 max-sm:mr-0 text-white px-1 py-1 rounded-xl text-xs font-bold skew-x-[20deg] mr-32 hover:bg-red-700 transition-all duration-300">
                       Click here
                     </button>
                     <div className="absolute right-0 top-3 skew-x-[20deg] max-sm:hidden">
