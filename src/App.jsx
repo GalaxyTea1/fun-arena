@@ -23,7 +23,7 @@ function App() {
         <Registration />
         <EntertainmentCenter />
         <div className="absolute top-[22rem] left-[23rem] transform -translate-x-1/2 z-40 flex">
-          <img src="../public/images/floating-logo.png" alt="FUN" />
+          <img src="/images/floating-logo.png" alt="FUN" />
         </div>
       </div>
 

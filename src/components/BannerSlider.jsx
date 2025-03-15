@@ -14,7 +14,7 @@ const slides = [
     description:
       "Enjoy an adrenaline ride in any weather. Outdoor track and indoor hall at a professional level with Sodi go-karts.",
     buttonText: "Find out more",
-    image: "../public/images/go-karts.jpg",
+    image: "/images/go-karts.jpg",
     phone: "+420737878891",
   },
   {
@@ -24,7 +24,7 @@ const slides = [
     description:
       "Jump, flip and have fun in our trampoline park. Perfect for all ages and fitness levels.",
     buttonText: "Find out more",
-    image: "../public/images/jumparena.png",
+    image: "/images/jumparena.png",
     phone: "+420737878891",
   },
   {
@@ -34,7 +34,7 @@ const slides = [
     description:
       "Experience the future of entertainment with our state-of-the-art virtual reality games.",
     buttonText: "Find out more",
-    image: "../public/images/vr.jpg",
+    image: "/images/vr.jpg",
     phone: "+420737878891",
   },
   {
@@ -44,7 +44,7 @@ const slides = [
     description:
       "Challenge your friends in our multiball arena with various ball games and activities.",
     buttonText: "Find out more",
-    image: "../public/images/multiball.jpg",
+    image: "/images/multiball.jpg",
     phone: "+420737878891",
   },
   {
@@ -54,7 +54,7 @@ const slides = [
     description:
       "Test your aim and precision at our laser shooting range. Safe and fun for everyone.",
     buttonText: "Find out more",
-    image: "../public/images/laser.png",
+    image: "/images/laser.png",
     phone: "+420737878891",
   },
 ];
@@ -79,21 +79,17 @@ const BannerSlider = () => {
       <div className="absolute top-0 left-0 right-0 z-30 flex justify-between items-center px-8 py-6">
         {/* Logo */}
         <div className="flex items-center cursor-pointer">
-          <img
-            src="../public/images/logo.png"
-            alt="Logo"
-            className="w-28 h-auto"
-          />
+          <img src="/images/logo.png" alt="Logo" className="w-28 h-auto" />
         </div>
 
         <div className="flex items-center space-x-4">
           <img
-            src="../public/images/language-icon.png"
+            src="/images/language-icon.png"
             alt="Language Icon"
             className="w-6 h-6 cursor-pointer"
           />
           <img
-            src="../public/images/menu-icon.png"
+            src="/images/menu-icon.png"
             alt="Menu Icon"
             className="w-8 h-8 cursor-pointer"
           />
@@ -147,7 +143,7 @@ const BannerSlider = () => {
                     {/* Flag icon - moved outside */}
                     <div className="w-20 h-20 sm:w-28 sm:h-28 absolute left-[-16px] sm:left-[-26px] top-[-40px] sm:top-[-56px] z-10">
                       <img
-                        src="../public/images/flag-icon.png"
+                        src="/images/flag-icon.png"
                         alt="Flag"
                         className="w-full h-full object-contain"
                       />
