@@ -23,7 +23,7 @@ const Registration = () => {
               <div className="flex-shrink-0 mr-6">
                 <div className="w-14 h-12 flex items-center justify-center text-3xl font-bold">
                   <img
-                    src="/src/assets/images/reg1.png"
+                    src="../public/images/reg1.png"
                     alt="Registration 1"
                     className="w-14 h-12"
                   />
@@ -47,7 +47,7 @@ const Registration = () => {
               <div className="flex-shrink-0 mr-6">
                 <div className="w-14 h-12 flex items-center justify-center text-3xl font-bold">
                   <img
-                    src="/src/assets/images/reg2.png"
+                    src="../public/images/reg2.png"
                     alt="Registration 2"
                     className="w-14 h-12"
                   />
@@ -64,7 +64,7 @@ const Registration = () => {
                     </button>
                     <div className="absolute right-0 top-3 skew-x-[20deg] max-sm:hidden">
                       <img
-                        src="/src/assets/images/qr-code.png"
+                        src="../public/images/qr-code.png"
                         alt="QR Code"
                         className="w-full h-full"
                       />
@@ -83,7 +83,7 @@ const Registration = () => {
               <div className="flex-shrink-0 mr-6">
                 <div className="w-14 h-12 flex items-center justify-center text-3xl font-bold">
                   <img
-                    src="/src/assets/images/reg3.png"
+                    src="../public/images/reg3.png"
                     alt="Registration 3"
                     className="w-14 h-12"
                   />

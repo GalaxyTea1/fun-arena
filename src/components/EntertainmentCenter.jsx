@@ -20,7 +20,7 @@ const EntertainmentCenter = () => {
               <span className="text-white font-bold flex items-center gap-2 mt-2 md:mt-0 cursor-pointer hover:text-gray-300">
                 Find more about us{" "}
                 <img
-                  src="/src/assets/images/arrow.png"
+                  src="../public/images/arrow.png"
                   alt="arrow"
                   className="w-5 h-5 hover:w-6 hover:h-6 transition-all duration-300"
                 />
@@ -31,7 +31,7 @@ const EntertainmentCenter = () => {
           <div className="relative aspect-video w-full">
             <div className="absolute inset-0 cursor-pointer flex items-center justify-center">
               <img
-                src="/src/assets/images/video.png"
+                src="../public/images/video.png"
                 alt="video"
                 className="max-w-full h-auto"
               />

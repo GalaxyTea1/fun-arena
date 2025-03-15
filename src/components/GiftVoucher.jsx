@@ -8,7 +8,7 @@ const GiftVoucher = () => {
           <div className="flex flex-col items-center lg:items-start relative pt-16 lg:pt-0 w-full lg:w-auto">
             <div className="w-28 h-28 sm:w-32 sm:h-32 lg:w-40 lg:h-40 absolute top-[-70px] left-1/2 lg:left-1 lg:top-[-35px] transform -translate-x-1/2 lg:translate-x-0">
               <img
-                src="/src/assets/images/gift.png"
+                src="../public/images/gift.png"
                 alt="Gift"
                 className="w-full h-full object-contain"
               />

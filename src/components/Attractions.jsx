@@ -4,32 +4,32 @@ const attractions = [
   {
     id: 1,
     name: "KARTING",
-    image: "/src/assets/images/att1.png",
+    image: "../public/images/att1.png",
   },
   {
     id: 2,
     name: "JUMPARENA",
-    image: "/src/assets/images/att2.png",
+    image: "../public/images/att2.png",
   },
   {
     id: 3,
     name: "VIRTUAL REALITY",
-    image: "/src/assets/images/att3.png",
+    image: "../public/images/att3.png",
   },
   {
     id: 4,
     name: "MULTIBALL",
-    image: "/src/assets/images/att4.png",
+    image: "../public/images/att4.png",
   },
   {
     id: 5,
     name: "LASER SHOOTING RANGE",
-    image: "/src/assets/images/att5.png",
+    image: "../public/images/att5.png",
   },
   {
     id: 6,
     name: "COMPANY EVENTS",
-    image: "/src/assets/images/att6.png",
+    image: "../public/images/att6.png",
   },
 ];
 
@@ -50,7 +50,7 @@ const Attractions = () => {
           <div className="text-sm text-gray-400 flex items-center">
             Multiple activities at Fun Arena Cheb
             <img
-              src="/src/assets/images/arrow-col.png"
+              src="../public/images/arrow-col.png"
               alt="arrow-right"
               className="ml-4 hover:scale-110 transition-all duration-300 cursor-pointer"
             />
@@ -89,7 +89,7 @@ const Attractions = () => {
           <div className="w-full relative z-10 max-xl:flex max-xl:justify-center max-xl:items-center max-xl:flex-col">
             <div className="relative w-auto">
               <img
-                src="/src/assets/images/att7.png"
+                src="../public/images/att7.png"
                 alt="attraction"
                 className="w-full h-full object-cover"
               />

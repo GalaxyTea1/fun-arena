@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center mb-8 space-y-6 lg:space-y-0">
           <div className="mb-6 lg:mb-0 lg:w-1/4">
             <img
-              src="/src/assets/images/logo-footer.png"
+              src="../public/images/logo-footer.png"
               alt="FUN Arena Logo"
               className="h-16 lg:h-24"
             />
@@ -39,22 +39,22 @@ const Footer = () => {
         <div className="pt-4 flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
           <div className="flex mb-4 lg:mb-0 bg-[#292929] rounded-full px-4 lg:px-5 py-2 space-x-3 lg:space-x-4">
             <img
-              src="/src/assets/images/fb.png"
+              src="../public/images/fb.png"
               alt="Facebook"
               className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
-              src="/src/assets/images/ins.png"
+              src="../public/images/ins.png"
               alt="Instagram"
               className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
-              src="/src/assets/images/mail.png"
+              src="../public/images/mail.png"
               alt="Email"
               className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
             <img
-              src="/src/assets/images/phone.png"
+              src="../public/images/phone.png"
               alt="Phone"
               className="h-5 lg:h-6 w-auto cursor-pointer hover:scale-110 transition-all duration-300"
             />
@@ -68,7 +68,7 @@ const Footer = () => {
               onClick={scrollToTop}
             >
               <img
-                src="/src/assets/images/up-btn.png"
+                src="../public/images/up-btn.png"
                 alt="Up"
                 className="h-6 lg:h-8 hover:scale-110 transition-all duration-300 cursor-pointer"
               />
