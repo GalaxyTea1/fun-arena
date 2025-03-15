@@ -2,7 +2,7 @@ import React from "react";
 
 const GiftVoucher = () => {
   return (
-    <section className="py-6 sm:py-8 md:py-12 bg-black">
+    <section className="py-6 sm:py-8 md:py-12 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 xl:px-28 relative">
         <div className="bg-gradient-to-r from-[#E30613] to-red-800 rounded-xl p-4 sm:p-6 flex flex-col lg:flex-row items-center justify-between">
           <div className="flex flex-col items-center lg:items-start relative pt-16 lg:pt-0 w-full lg:w-auto">

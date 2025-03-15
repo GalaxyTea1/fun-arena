@@ -41,7 +41,7 @@ const Attractions = () => {
   };
 
   return (
-    <section className="py-16 bg-black">
+    <section className="py-16">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-12 md:flex-row flex-col">
           <h2 className="text-4xl md:text-5xl font-bold max-md:mb-2">
