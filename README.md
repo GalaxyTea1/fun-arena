@@ -1,13 +1,13 @@
 # FUN Arena Cheb - Website
 
-## Công nghệ sử dụng
+## Technologies Used
 
 - React
 - Vite
 - TailwindCSS
 - Swiper.js
 
-## Cài đặt
+## Installation
 
 1. Clone repository:
 
@@ -16,32 +16,32 @@ git clone <repository-url>
 cd fun-arena
 ```
 
-2. Cài đặt dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Chạy ứng dụng ở môi trường development:
+3. Run the application in development environment:
 
 ```bash
 npm run dev
 ```
 
-4. Build ứng dụng cho production:
+4. Build the application for production:
 
 ```bash
 npm run build
 ```
 
-## Cấu trúc dự án
+## Project Structure
 
-- `src/components/`: Chứa các component React
-- `src/assets/`: Chứa hình ảnh và tài nguyên khác
-- `public/`: Chứa các file tĩnh
+- `src/components/`: Contains React components
+- `src/assets/`: Contains images and other resources
+- `public/`: Contains static files
 
-## Tính năng
+## Features
 
-- Banner slider với chức năng tự động chuyển đổi và điều khiển bằng nút
-- Responsive design cho tất cả các thiết bị
-- Hiệu ứng chuyển đổi mượt mà
+- Banner slider with auto-switching and button control
+- Responsive design for all devices
+- Smooth transition effects

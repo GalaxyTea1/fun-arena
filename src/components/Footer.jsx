@@ -1,6 +1,13 @@
 import React from "react";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="py-10 lg:py-20  border-t border-gray-800">
       <div className="container mx-auto px-4">
@@ -56,7 +63,10 @@ const Footer = () => {
             <div className="text-gray-400 text-center lg:text-right text-sm lg:text-base">
               <p>© 2025 FUN Arena Cheb. All rights Reserved.</p>
             </div>
-            <button className="text-gray-400 hover:text-white transition-colors duration-300 ml-4 max-lg:absolute max-lg:right-6">
+            <button
+              className="text-gray-400 hover:text-white transition-colors duration-300 ml-4 max-lg:absolute max-lg:right-6"
+              onClick={scrollToTop}
+            >
               <img
                 src="/src/assets/images/up-btn.png"
                 alt="Up"

@@ -87,7 +87,7 @@ const Attractions = () => {
             ))}
           </div>
           <div className="w-full relative z-10 max-xl:flex max-xl:justify-center max-xl:items-center max-xl:flex-col">
-            <div className="relative w-full max-xl:flex max-xl:justify-center max-xl:items-center">
+            <div className="relative w-auto">
               <img
                 src="/src/assets/images/att7.png"
                 alt="attraction"
